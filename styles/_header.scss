@@ -37,6 +37,9 @@ header {
   letter-spacing: 2.4px;
   text-transform: uppercase;
 }
+.logo:hover {
+  text-decoration: underline;
+}
 .nav-bar {
   align-items: center;
   justify-content: center;
@@ -52,7 +55,12 @@ header {
   line-height: 26px; /* 185.714% */
   text-transform: uppercase;
 }
+.nav-bar li:hover {
+  font-size: 18px;
+  text-decoration: underline;
+}
 .search-bar {
+  margin: 0;
   margin-top: 48px;
   align-items: center;
 }
@@ -76,7 +84,12 @@ header {
   background-color: #5474fd;
   color: #fff;
   border: 2px solid #fff;
+  margin: 0;
   margin-bottom: 50px;
+}
+.search-button:hover {
+  color: #5474fd;
+  background-color: #fff;
 }
 .scroll-container {
   display: flex;
@@ -96,6 +109,10 @@ header {
   background-color: transparent;
   border: none;
   color: #fff;
+}
+.scroll-button:hover {
+  font-size: 18px;
+  text-decoration: underline;
 }
 .arrow-down {
   width: 17px;
