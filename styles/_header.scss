@@ -55,14 +55,21 @@ header {
   line-height: 26px; /* 185.714% */
   text-transform: uppercase;
 }
+.nav-bar a {
+  color: #fff;
+  text-decoration: none;
+}
 .nav-bar li:hover {
   font-size: 18px;
   text-decoration: underline;
+  color: #fff;
 }
 .search-bar {
   margin: 0;
   margin-top: 48px;
   align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .search-bar input {
   width: 503px;
@@ -78,6 +85,11 @@ header {
   border: none;
   margin: 0;
 }
+.search-bar input,
+.search-button {
+  margin: 0;
+  display: inline-block;
+}
 .search-button {
   width: 153px;
   height: 66px;
@@ -85,7 +97,6 @@ header {
   color: #fff;
   border: 2px solid #fff;
   margin: 0;
-  margin-bottom: 50px;
 }
 .search-button:hover {
   color: #5474fd;
