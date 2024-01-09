@@ -1,0 +1,103 @@
+header {
+  background-color: lightgray;
+  background-image: url("../images/image1.png");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 820px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.title-page {
+  justify-self: center;
+}
+.title,
+.subtitle {
+  margin: 11px;
+}
+.nav-container {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+}
+.logo {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 108.333% */
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+.nav-bar {
+  align-items: center;
+  justify-content: center;
+}
+.nav-bar ul {
+  display: inline-flex;
+  gap: 20px;
+  list-style: none;
+  font-family: "Aleo", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  text-transform: uppercase;
+}
+.search-bar {
+  margin-top: 48px;
+  align-items: center;
+}
+.search-bar input {
+  width: 503px;
+  height: 63px;
+  color: #999;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  letter-spacing: 2.8px;
+  border: none;
+  margin: 0;
+}
+.search-button {
+  width: 153px;
+  height: 66px;
+  background-color: #5474fd;
+  color: #fff;
+  border: 2px solid #fff;
+  margin-bottom: 50px;
+}
+.scroll-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll-button {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  letter-spacing: 2.8px;
+  margin-top: 50px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+.arrow-down {
+  width: 17px;
+  height: 11px;
+}

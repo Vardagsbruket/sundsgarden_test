@@ -1,0 +1,64 @@
+$general-text-color: #fff;
+
+body {
+  color: $general-text-color;
+  font-family: "Josefin Sans", sans-serif;
+  align-content: center;
+}
+.background-container1 {
+  height: 685px;
+  background-image: url("../images/background2.png");
+  display: flex;
+  align-content: center;
+}
+.main-container1 {
+  max-width: 80vw;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+  align-content: baseline;
+  align-items: baseline;
+  display: flex;
+  gap: 50px;
+}
+.text-container1 {
+  max-width: 560px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-self: flex-end;
+  padding: 50px 0;
+}
+.text-container1 h2 {
+  font-family: "Aleo";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+}
+.explore-button {
+  width: 228px;
+  height: 63px;
+  background-color: #5474fd;
+  color: $general-text-color;
+  border: none;
+}
+.container-pictures1 {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 560px;
+  width: 100%;
+  padding: 50px;
+}
+.container-pictures1 img {
+  width: 350px;
+  height: 220px;
+}
+
+.picture2 {
+  align-self: flex-end;
+}
