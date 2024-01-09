@@ -86,10 +86,11 @@ body {
   padding: 50px;
 }
 .center-container2 {
-  max-width: 80%;
   display: flex;
   max-width: 80%;
   margin: auto;
+  justify-content: space-around;
+  margin: 50px;
 }
 .card {
   width: 543px;
@@ -98,11 +99,75 @@ body {
   display: flex;
   flex-direction: column;
   padding: 50px 32px;
+  justify-content: center;
 }
 .card button {
   margin-top: 50px;
 }
 .card1 {
   opacity: 0.9;
+}
+.background-container4 {
+  background-image: url("../images/background4.png");
+  padding: 50px;
+}
+.card2 {
+  justify-self: flex-end;
+}
+.background-container5 {
+  background-image: url("../images/background5.png");
+  height: 731px;
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+.container5 {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.review-container {
+  display: flex;
+  text-align: left;
+  max-width: 1107px;
+  max-height: 284px;
+}
+.review-container img {
+  width: 445px;
+  height: 284px;
+}
+.container5 h2 {
+  font-family: "Aleo";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 50px;
+}
+.review-container h3 {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.review-container p {
+  color: #e8e8e8;
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+}
+.text-box {
+  width: 668px;
+  width: 100%;
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
 }
