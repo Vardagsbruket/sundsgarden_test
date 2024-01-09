@@ -4,6 +4,10 @@ body {
   color: $general-text-color;
   font-family: "Josefin Sans", sans-serif;
   align-content: center;
+  max-width: 1773px;
+  width: 100%;
+  align-content: center;
+  margin: auto;
 }
 .background-container1 {
   height: 685px;
@@ -12,7 +16,7 @@ body {
   align-content: center;
 }
 .main-container1 {
-  max-width: 80vw;
+  max-width: 80%;
   width: 100%;
   margin: auto;
   justify-content: space-between;
@@ -38,7 +42,7 @@ body {
   line-height: 26px;
   margin: 0;
 }
-.explore-button {
+.button {
   width: 228px;
   height: 63px;
   background-color: #5474fd;
@@ -61,4 +65,44 @@ body {
 
 .picture2 {
   align-self: flex-end;
+}
+.background-container2 {
+  background-color: #333333;
+  height: fit-content;
+  width: 100%;
+  margin: auto;
+}
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  height: fit-content;
+  margin: auto;
+}
+.background-container3 {
+  background-image: url("../images/background3.png");
+  height: 700px;
+  padding: 50px;
+}
+.center-container2 {
+  max-width: 80%;
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+}
+.card {
+  width: 543px;
+  height: 374px;
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 32px;
+}
+.card button {
+  margin-top: 50px;
+}
+.card1 {
+  opacity: 0.9;
+  justify-content: center;
 }
